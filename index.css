@@ -1,0 +1,57 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background: #e0f2f1;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.App {
+  padding: 2rem;
+}
+
+h1 {
+  color: #00695c;
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 2rem;
+  margin-top: 2rem;
+  display: inline-block;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+button {
+  margin: 1rem;
+  padding: 1rem 2rem;
+  border: none;
+  background: #00796b;
+  color: white;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #004d40;
+}
+
+select {
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #00796b;
+  margin-left: 1rem;
+}
+
+.listening {
+  color: #0277bd;
+}
